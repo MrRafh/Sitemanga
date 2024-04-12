@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(49, 49, 49);
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  /* Adicionando uma transição suave de cor */
+}
+
+nav ul li a:hover {
+  color: #888;
+  /* Alterando a cor ao passar o mouse */
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card-manga {
+  height: 80vh;
+  width: 30vw !important;
+  background-color: rgb(89, 89, 89);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.card-manga img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.manga-info {
+  padding: 16px;
+}
+
+.manga-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.manga-author {
+  font-size: 16px;
+  color: #f7f7f7;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.manga-chapters {
+  font-size: 16px;
+}
+
+.read-button {
+  background-color: #002554;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.read-button:hover {
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: rgb(172, 172, 172);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.featured-manga {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* .carossel {
+  height: 40vh;
+}
+
+.carossel img {
+  height: 100%;
+  object-fit: cover;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-align: center;
+  color: #fdfdfd;
+}
+.player{
+  position: center;
+  
+}
